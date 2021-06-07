@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("../font/Quicksand-Regular.ttf") format("truetype");
+    /*src: url("../font/Quicksand-Medium.ttf") format("truetype");
+    src: url("../font/Quicksand-Bold.ttf") format("truetype");
+    src: url("../font/Quicksand-Light.ttf") format("truetype")*/
+}
+@font-face {
+    font-family: "KosugiMaru-Regular";
+    src: url("../font/KosugiMaru-Regular.ttf") format("truetype");
+}
+
+
+body {
+    box-sizing: content-box;
+    margin: 1% 25% 10% 25%;
+    padding: 1%;
+    font-family: 'Quicksand', 'KosugiMaru-Regular', Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/*a {display:block;}*/
+a {color: #000;}
+a:visited, a:link {
+    text-decoration-color:#000;
+    text-decoration-line: none;
+}
+a:hover {background-color:#7fffd4;}
+li, ol, ul {
+    font-family: 'Quicksand', Georgia, 'Times New Roman', Times, serif;
+    list-style-position: inside;
+    list-style-type: circle;
+}
